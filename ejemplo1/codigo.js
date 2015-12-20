@@ -1,9 +1,22 @@
 var dibujo, lienzo;
+var t,b1,b2,b3;
 
 function inicio()
 {
+
+	t=document.getElementById("rayaUsuario");
+	b1=document.getElementById("dibujaRayas");
+	b1=document.getElementById("dibujaCirculo");
+	b1=document.getElementById("dibujaCuadrado");
 	dibujo = document.getElementById("dibujito");
 	lienzo = dibujo.getContext("2d");
+
+
+function dibujaParrilla(n)
+{
+	
+}
+
 
 	lienzo.moveTo(100,100);
 	lienzo.lineTo(200,100);
