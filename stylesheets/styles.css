@@ -9,6 +9,10 @@ a
   text-decoration: none;
 }
 
+a:visited {
+  color: white;
+}
+
 ul
 {
   margin: 20% 0 0% 0%;
@@ -153,6 +157,7 @@ div.bloque
 {
   margin: 5% 0 0;
 }
+
 
 div.bloque p
 {
